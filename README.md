@@ -6,3 +6,4 @@ Adding github account to springboot project
 **GIT CHEATSHEET**
 
 >git pull origin master --allow-unrelated-histories
+>git config --global alias.ca checkout
