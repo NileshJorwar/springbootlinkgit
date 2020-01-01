@@ -38,9 +38,19 @@
   3. Check the gradle --version in IntelliJ terminal.
 
 ## GIT CHEATSHEET
+  git pull origin master --allow-unrelated-histories
+  git config --global alias.ca checkout
 
->git pull origin master --allow-unrelated-histories
+## Issues in Installing pcf-dev
+1 go to pivotal.io
+	platform --
+		pcf dev ---
+			start now ---
+				cf cli
+					https://docs.pivotal.io/pcf-dev/install-windows.html
+					Install the plugin for CF CLI
 
->git config --global alias.ca checkout
-
-
+2 Make sure the path in System environment is set
+3 Check the verion of CF CLI in CMD
+4 Download the PCF Dev CLI Plugin and unzip it
+Issue- Hyper-V is enabled but does not work on windows home
