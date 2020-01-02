@@ -42,7 +42,7 @@
   git config --global alias.ca checkout
 
 ## Issues in Installing pcf-dev
-1 go to pivotal.io
+1. go to pivotal.io
 	platform --
 		pcf dev ---
 			start now ---
@@ -50,7 +50,7 @@
 					https://docs.pivotal.io/pcf-dev/install-windows.html
 					Install the plugin for CF CLI
 
-2 Make sure the path in System environment is set
-3 Check the verion of CF CLI in CMD
-4 Download the PCF Dev CLI Plugin and unzip it
+2. Make sure the path in System environment is set
+3. Check the verion of CF CLI in CMD
+4. Download the PCF Dev CLI Plugin and unzip it
 Issue- Hyper-V is enabled but does not work on windows home
