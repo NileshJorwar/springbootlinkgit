@@ -43,12 +43,12 @@
 
 ## Issues in Installing pcf-dev
 1. go to pivotal.io
-	platform --
-		pcf dev ---
-			start now ---
-				cf cli
-					https://docs.pivotal.io/pcf-dev/install-windows.html
-					Install the plugin for CF CLI
+	- platform --
+	-	pcf dev ---
+	-		start now ---
+	-			cf cli
+	-				https://docs.pivotal.io/pcf-dev/install-windows.html
+	-				Install the plugin for CF CLI
 
 2. Make sure the path in System environment is set
 3. Check the verion of CF CLI in CMD
