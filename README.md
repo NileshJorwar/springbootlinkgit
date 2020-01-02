@@ -53,4 +53,16 @@
 2. Make sure the path in System environment is set
 3. Check the verion of CF CLI in CMD
 4. Download the PCF Dev CLI Plugin and unzip it
-Issue- Hyper-V is enabled but does not work on windows home
+Issue- Hyper-V is enabled but does not work on windows 10 home
+Solution ---
+    - Create batch file and put the below contents in it.
+    ``
+    pushd "%~dp0"
+    dir /b %SystemRoot%\servicing\Packages\*Hyper-V*.mum >hyper-v.txt
+    for /f %%i in ('findstr /i . hyper-v.txt 2^>nul') do dism /online /norestart /add-package:"%SystemRoot%\servicing\Packages\%%i"
+    del hyper-v.txt
+    Dism /online /enable-feature /featurename:Microsoft-Hyper-V -All /LimitAccess /ALL
+    pause
+    ``
+    - Run the batch file created above.
+    Make sure you have more than free 8GB RAM available.
