@@ -67,4 +67,4 @@ Solution ---
     - Run the batch file created above.
     - Make sure you have more than free 8GB RAM available.
     - Error-- Not enough memory in the system to start the virtual machine cfdev with ram size 8192 megabytes. (Virtual machine ID
-      CC016C9D-7534-4A90-B272-875C676B9446)
+      CC016C9D-7534-4A90-B272-875C676B9446).
